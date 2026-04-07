@@ -1,0 +1,17 @@
+GEMINI_API_KEY=AIzaSyBzbnPrhEKxhq8UeMLoyYDDc0uzm3g-Qj8
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "precision_ag_system"
+version = "0.1.0"
+dependencies = [
+    "google-genai",
+    "lightning",
+    "pandas",
+    "scikit-learn",
+    "python-dotenv",
+    "requests"
+]
